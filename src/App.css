@@ -1,0 +1,21 @@
+.productContainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.productDiv{
+  border: 5px solid gray;
+  padding:20px;
+  width: 300px;
+  height: 200px;
+  
+}
+.imgDiv{
+  width:100px;
+  object-fit: contain;
+  text-align: center;
+}
+h1{
+  text-decoration: underline;
+  font-size: small;
+}
